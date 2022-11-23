@@ -29,4 +29,27 @@
     padding: 1em;
     
     }
+
+        @media only screen and (max-width: 720px) {
+            .image-wrapper {
+                grid-template-columns: 1fr;
+            }
     
+            i {
+                color: #ff8ae9;
+            }
+    
+            #submit {
+                background-color: #ff00bb;
+            }
+    
+            input {
+                font-weight: bold;
+                font-szie: 20;
+            }
+    
+            .btn {
+                color: #aeff00;
+                padding-top:
+            }
+        }
